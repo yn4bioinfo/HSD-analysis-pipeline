@@ -36,7 +36,7 @@ For each query transcript, the script identifies the native locus, duplicated lo
 
 ### BLAST result format
 
-The `--blast_result` file is expected to be a tabular BLAST output without a header.
+The `--blast_result` file is expected to be a tabular BLAST output (BLASTN -outfmt 6), without a header.
 
 The expected columns are:
 
